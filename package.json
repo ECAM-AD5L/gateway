@@ -1,0 +1,19 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "API Gateway and Client Serving",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ECAM-AD5L/gateway.git"
+  },
+  "author": "qlurkin@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ECAM-AD5L/gateway/issues"
+  },
+  "homepage": "https://github.com/ECAM-AD5L/gateway#readme"
+}
