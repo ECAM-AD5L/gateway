@@ -15,6 +15,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // API Routes
 app.use('/api', require('./api/router'))
 
+// Serving Modules
+app.use('/modules', express.static(path.join(__dirname, 'node_modules')))
+
 // Serving Client
 app.use(express.static(path.join(__dirname, 'public')))
 
